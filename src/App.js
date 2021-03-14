@@ -1,9 +1,18 @@
 import React from 'react';
+import Header from './Header';
 
 export default function App() {
   return (
     <div>
-      <h1>Welcome to linkedIn clone</h1>
+      {/* Header */}
+      <Header />
+      {/* App Body */}
+
+      {/* Sidebar */}
+
+      {/* Feed */}
+
+      {/* Widgets */}
     </div>
   );
 }
