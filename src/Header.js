@@ -23,7 +23,6 @@ function Header() {
         <img
           src="https://www.flaticon.com/svg/static/icons/svg/174/174857.svg"
           alt="LinkedIN Icon"
-          avatar={'value' ? 1 : 0}
         />
 
         <div className="header__search">

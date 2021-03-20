@@ -7,11 +7,11 @@ import React, { forwardRef } from 'react';
 import './Post.css';
 import InputOptions from './InputOptions';
 
-const Post = forwardRef(({ name, description, message, photoUrl }, ref) => {
+const Post = forwardRef(({ name, description, message, photoURL }, ref) => {
   return (
     <div ref={ref} className="post">
       <div className="post__header">
-        <Avatar src={photoUrl}>{name[0].toUpperCase()}</Avatar>
+        <Avatar src={photoURL}>{name[0].toUpperCase()}</Avatar>
         <div className="post__info">
           <h2>{name}</h2>
           <p>{description}</p>
