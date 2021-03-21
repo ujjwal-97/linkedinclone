@@ -20,7 +20,7 @@ function Sidebar() {
           src="https://images.unsplash.com/photo-1479859546309-cd77fa21c8f6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=michele-feola--t40mnV3vAU-unsplash.jpg&w=640"
           alt=""
         />
-        <Avatar src={user.photoURL} className="sidebar__avatar">
+        <Avatar src="user.photoUrl" className="sidebar__avatar">
           {user.displayName[0].toUpperCase()}
         </Avatar>
         <h2>{user.displayName}</h2>
