@@ -21,7 +21,7 @@ export default function App() {
             email: userAuth.email,
             uid: userAuth.uid,
             displayName: userAuth.displayName,
-            photoURL: userAuth.photoURL,
+            photoUrl: userAuth.photoURL,
           })
         );
       } else {
